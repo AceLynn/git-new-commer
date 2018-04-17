@@ -1,9 +1,9 @@
 # 同时配置多个ssh，windows操作如下：
 ## 1.生成一个公司用的SSH-Key
-> $ ssh-keygen -t rsa -C "1email@company.com” -f ~/.ssh/id-rsa
+> $ ssh-keygen -t rsa -C "first-email@company.com” -f ~/.ssh/id-rsa
 
 ## 2.生成一个github用的SSH-Key
-> $ ssh-keygen -t rsa -C "2email@github.com” -f ~/.ssh/github-rsa
+> $ ssh-keygen -t rsa -C "second-email@github.com” -f ~/.ssh/github-rsa
 
 ## 3.添加私钥
 > $ ssh-add ~/.ssh/id-rsa
